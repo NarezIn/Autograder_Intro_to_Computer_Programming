@@ -1,11 +1,11 @@
-#ignore the enviroment variable file
+# ignore the enviroment variable file
 .env
-#ignore 'notes': which is my playgrounld folder for testing things
+# ignore 'notes': which is my playgrounld folder for testing things
 **/notes/
-#ignore any folder in student_submissions: can't upload students' code to github lol.
+# ignore any folder in student_submissions: can't upload students' code to github lol.
 /*/A*/stu_submissions/*/**
-#do the same for rubrics
+# the same for rubrics
 /*/A*/rubrics/*
 /*/mapped_grade_comments.txt
-#maybe ingore grade_comment_template.txt???
+# maybe ingore grade_comment_template.txt???
 __pycache__/

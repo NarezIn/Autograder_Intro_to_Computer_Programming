@@ -1,4 +1,14 @@
 # Autograder for CSCI-UA 2 – *Introduction to Computer Programming*
+
+## QuickStart
+#### Clone & Setup
+
+```shell
+git clone https://github.com/NarezIn/Autograder_Intro_to_Computer_Programming.git
+```
+
+`cd Autograder_Intro_to_CP`
+
 > This is the autograder for assignments in the course **CSCI-UA 2: Introduction to Computer Programming**, with Prof. Joshua Clayton as the Instructor. 
 > If you are a grader intending to use this program, please be aware that assignments may differ from semester to semester. Feel free to make adjustments based on current assignment instructions.
 
@@ -13,14 +23,14 @@
 > On **Nov. 25, 2024**, I asked Prof. Clayton why this class doesn't use Gradescope.  
 > He explained that Gradescope depends on function calls, which aren’t covered in the later parts of this course.  
 >  
-> I guess that’s the obstacle I hope to conquer with this autograder. Wish me luck. 🚀
->     Update: Used Python modules with assistance of LLM to overcome this problem
+> I guess that’s the obstacle I hope to conquer with this autograder. Wish me luck. 🚀<br>
+> Update: Used Python modules with assistance of LLM to overcome this problem
 >         Modules used:
 >             os,
 >             subprocess,
 >             re (regular expression),
 >             shutil (shell utilities),
->             sys (System-specific parameters and functions)
+>             sys (System-specific parameters and functions)<br>
 >         Framework:
 >             Langchain
 >         LLM model:
@@ -50,25 +60,27 @@ About Manually Grading:
     2. Add more maybe, if applicable.########//////
 
 Expected Directory Structure for Grading:
-> autograder_intro_to_cp
->    └──semester (2*Fall/2*Spring)
->        │── A*
->        │   │── stu_submissions/
->        |   |       |
->        |   |       |── firstname_lastname_**.py
->        |   |       |
->        │   │       └── ...
->        │   │
->        │   │── rubrics/
->        │   |
->        |   |
->        │   └── A*_grader.py
->        │       
->        └── grade_comment_template
+```
+ autograder_intro_to_computer_programming
+    └──semester (2*Fall/2*Spring)
+        │── A*
+        │   │── stu_submissions/
+        |   |       |
+        |   |       |── firstname_lastname_**.py
+        |   |       |
+        │   │       └── ...
+        │   │
+        │   │── rubrics/
+        │   |
+        |   |
+        │   └── A*_grader.py
+        │       
+        └── grade_comment_template
+```
 
-Some Notes that I don't know how to organize:
-0. resolved problems are markede with ✅.
-1. In Grade_Comments.txt of each assignment, I use the ✅ character to record if I have graded this file on the grading web. I use **** to mask. ✅fixed by using .gitignore
+## Some Notes that I don't know how to organize:<br>
+1. resolved problems are markede with ✅.
+2. In Grade_Comments.txt of each assignment, I use the ✅ character to record if I have graded this file on the grading web. I use **** to mask. ✅fixed by using .gitignore
 3. Make sure you delete/mask all information of students before you upload them somewhere. ✅fixed by using .gitignore
 4. Make a directory structure generater?
 5. Right now (10/2/2025), each sub-hw has its own grader. Can I just create a one to grade all sub-hw (which means entire 1 hw), or even all hw?
