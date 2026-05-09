@@ -6,8 +6,11 @@
 ```shell
 git clone https://github.com/NarezIn/Autograder_Intro_to_Computer_Programming.git
 ```
-
-`cd Autograder_Intro_to_CP`
+```
+# Fix later
+Local project dependencies are a little messy.
+```
+<!-- `cd Autograder_Intro_to_CP` -->
 
 > This is the autograder for assignments in the course **CSCI-UA 2: Introduction to Computer Programming**, with Prof. Joshua Clayton as the Instructor. 
 > If you are a grader intending to use this program, please be aware that assignments may differ from semester to semester. Feel free to make adjustments based on current assignment instructions.
